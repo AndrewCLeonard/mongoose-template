@@ -29,9 +29,9 @@ async function main() {
 	const Jared = new Kitten({ breed: "Jared" });
 
 	await fluffy.save();
-	fluffy.speak();
-	silence.speak();
-	Jared.speak();
+	// fluffy.speak();
+	// silence.speak();
+	// Jared.speak();
 
 	const kittens = await Kitten.find();
 	// console.log(kittens);
